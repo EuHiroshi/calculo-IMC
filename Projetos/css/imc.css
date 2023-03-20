@@ -10,6 +10,7 @@
   box-sizing: border-box;
   outline: 0;
 }
+
 /* corpo da pagina */
 body {
   margin: 0;
@@ -22,15 +23,19 @@ body {
 
 /* corpo do formulario */
 .container {
-  max-width: 640px;
+  max-width: 700px;
   margin: 50px auto;
   background: #fff;
-  padding: 20px;
+  padding: 30px;
   border-radius: 10px;
+  font-size: 30px;
+  
 }
 
 /* formulario */
-form input, form label, form button {
+form input,
+form label,
+form button {
   display: block;
   width: 100%;
   margin-bottom: 10px;
@@ -40,7 +45,7 @@ form input {
   font-size: 24px;
   height: 50px;
   padding: 0 20px;
-  
+
 }
 
 form input:focus {
@@ -58,32 +63,35 @@ form button {
   cursor: pointer;
   margin-top: 30px;
 }
+
 /* botao quando o mouse estiver em cima */
 form button:hover {
   background: var(--primary-color-darker);
 }
+
 /* Alinhamento */
-.tabelas{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-    font-size: 25px;
+.tabelas {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
 }
 
 .textos {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  font-size: 20px;
+  font-size: 25px;
+  line-height: 25px;
 }
 
-.separador{
+.separador {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
 /* Personalizando as respostas caso houver sucesso, ou não */
-.paragrafoResultado{
+.paragrafoResultado {
   background: #c0f0e2;
   padding: 10px 30px;
 }
